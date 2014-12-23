@@ -32,6 +32,7 @@ public abstract class Mob extends VisibleEntity {
 				if (!collision(sign(xa), ya)) {
 					this.x += xa;
 				}
+				break;
 			}
 		}
 		
@@ -45,6 +46,7 @@ public abstract class Mob extends VisibleEntity {
 				if (!collision(xa, sign(ya))) {
 					this.y += ya;
 				}
+				break;
 			}
 		}
 	}

@@ -14,7 +14,7 @@ public class Player extends Mob{
 	public double atkspd = 6.0;
 	
 	private double atkTimer = Game.FPS / atkspd;
-	private double mvspd = 1.0;
+	private double mvspd = 1.5;
 	
 	private AnimatedSprite up = new AnimatedSprite(16, 9, SpriteSheet.player_up);
 	private AnimatedSprite down = new AnimatedSprite(16, 9, SpriteSheet.player_down);
